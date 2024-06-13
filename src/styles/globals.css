@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fullscreen {
+  height: calc(100vh - 8rem);
+}
+
+.bg-gradient {
+  background: linear-gradient(to bottom right, white, #f9fafb, #f8fafc);
+}
+
+.shadow-custom {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px,
+    rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
