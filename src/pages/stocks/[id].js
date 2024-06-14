@@ -92,15 +92,6 @@ const ItemPage = () => {
     setBuySignals(result.buy_signals);
     setSellSignals(result.sell_signals);
     // setRecentPrice(lastClose);
-
-    finnhubClient.companyBasicFinancials(
-      receivedData,
-      "metrics",
-      (error, data, response) => {
-        setBasicFinancials(data);
-      }
-    );
-
     finnhubClient.quote(receivedData, (error, data, response) => {
       setRecentPrice(data);
     });
