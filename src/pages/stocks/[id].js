@@ -39,7 +39,7 @@ const ItemPage = () => {
     const JSONdata = JSON.stringify(receivedData);
 
     // Define the API endpoint where the form data will be sent
-    const endpoint = "https://historical-c5mv25ezda-no.a.run.app";
+    const endpoint = "https://historicalendpoint-romkoj4qoq-no.a.run.app/";
 
     // Set up options for the fetch request
     const options = {
