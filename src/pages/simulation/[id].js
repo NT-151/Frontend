@@ -41,7 +41,7 @@ const ItemPage = () => {
 
     // Define the API endpoint where the form data will be sent
     const endpoint =
-      "https://simulationendpoint-romkoj4qoq-no.a.run.app/api/simulate";
+      "https://stock-price-server-5jf6.onrender.com/api/simulate";
 
     // Set up options for the fetch request
     const options = {
